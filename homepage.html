@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Font Awesome -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+            />
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+            />
+        <!-- MDB -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+            rel="stylesheet"
+            />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                        <img
+                            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/336174255_3057581141214873_5387745162481475232_n.png?_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_ohc=GQRJlmF68_EAX9lfhcw&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTI5wKXScAGlb1Yd7fxUhZYcNGuONdXbsYgXjYMaWz6eA&oe=64697CA1"
+                            height="50"
+                            alt="Logo câu lạc bộ tin học"
+                            loading="lazy"
+                            />
+                    </a>
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sự kiện</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+                    <!-- Icon -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liên hệ chúng tôi</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                            <a class="nav-link" href="#">Đăng nhập</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+        <!-- Carousel wrapper -->
+        <div id="carouselBasicExample" class="carousel slide carousel-fade"
+            data-mdb-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-mdb-target="#carouselBasicExample"
+                    data-mdb-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button
+                    type="button"
+                    data-mdb-target="#carouselBasicExample"
+                    data-mdb-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button
+                    type="button"
+                    data-mdb-target="#carouselBasicExample"
+                    data-mdb-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Inner -->
+            <div class="carousel-inner">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <img
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp"
+                        class="d-block w-100" alt="Sunset Over the City"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis
+                            interdum.</p>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <img
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp"
+                        class="d-block w-100" alt="Canyon at Nigh"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.</p>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <img
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"
+                        class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl
+                            consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Inner -->
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button"
+                data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button"
+                data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Carousel wrapper -->
+        <!--Section: News of the day-->
+        <div class="row gx-5">
+            <div class="col-md-6 mb-4">
+                <div class="bg-image hover-overlay ripple shadow-2-strong
+                    rounded-5" data-mdb-ripple-color="light">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp"
+                        class="img-fluid" />
+                    <a href="#!">
+                        <div class="mask" style="background-color: rgba(251,
+                            251, 251, 0.15);"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">News
+                    of the day</span>
+                <h4><strong>Facilis consequatur eligendi</strong></h4>
+                <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis consequatur
+                    eligendi quisquam doloremque vero ex debitis veritatis
+                    placeat unde animi laborum
+                    sapiente illo possimus, commodi dignissimos obcaecati illum
+                    maiores corporis.
+                </p>
+                <button type="button" class="btn btn-primary">Read more</button>
+            </div>
+        </div>
+
+        <!--Section: News of the day-->
+        <div class="card px-3 p-5" style="max-width: 32rem">
+            <!-- News block -->
+            <div>
+                <!-- Featured image -->
+                <div class="bg-image hover-overlay shadow-1-strong ripple
+                    rounded-5 mb-4" data-mdb-ripple-color="light">
+                    <img
+                        src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                        class="img-fluid" />
+                    <a href="#!">
+                        <div class="mask" style="background-color: rgba(251,
+                            251, 251, 0.15);"></div>
+                    </a>
+                </div>
+
+                <!-- Article data -->
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <a href="" class="text-info">
+                            <i class="fas fa-plane"></i>
+                            Travels
+                        </a>
+                    </div>
+
+                    <div class="col-6 text-end">
+                        <u> 15.07.2020</u>
+                    </div>
+                </div>
+
+                <!-- Article title and description -->
+                <a href="" class="text-dark">
+                    <h5>This is title of the news</h5>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Odit, iste aliquid. Sed
+                        id nihil magni, sint vero provident esse numquam
+                        perferendis ducimus dicta
+                        adipisci iusto nam temporibus modi animi laboriosam?
+                    </p>
+                </a>
+
+                <hr />
+
+                <!-- News -->
+                <a href="" class="text-dark">
+                    <div class="row mb-4 border-bottom pb-2">
+                        <div class="col-3">
+                            <img
+                                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                                class="img-fluid shadow-1-strong rounded"
+                                alt="Hollywood Sign on The Hill" />
+                        </div>
+
+                        <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                                <u> 15.07.2020</u>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- News -->
+                <a href="" class="text-dark">
+                    <div class="row mb-4 border-bottom pb-2">
+                        <div class="col-3">
+                            <img
+                                src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+                                class="img-fluid shadow-1-strong rounded"
+                                alt="Palm Springs Road" />
+                        </div>
+
+                        <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                                <u> 15.07.2020</u>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- News -->
+                <a href="" class="text-dark">
+                    <div class="row mb-4 border-bottom pb-2">
+                        <div class="col-3">
+                            <img
+                                src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
+                                class="img-fluid shadow-1-strong rounded"
+                                alt="Los Angeles Skyscrapers" />
+                        </div>
+
+                        <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                                <u> 15.07.2020</u>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- News -->
+                <a href="" class="text-dark">
+                    <div class="row mb-4 border-bottom pb-2">
+                        <div class="col-3">
+                            <img
+                                src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
+                                class="img-fluid shadow-1-strong rounded"
+                                alt="Skyscrapers" />
+                        </div>
+
+                        <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                                <u> 15.07.2020</u>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- News block -->
+        </div>
+        <!--Main layout-->
+        <div class="container">
+            <!--Section: News of the day-->
+            <section class="border-bottom pb-4 mb-5">
+                <div class="row gx-5">
+                    <div class="col-md-6 mb-4">
+                        <div class="bg-image hover-overlay ripple
+                            shadow-2-strong rounded-5"
+                            data-mdb-ripple-color="light">
+                            <img
+                                src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp"
+                                class="img-fluid" />
+                            <a href="#!">
+                                <div class="mask" style="background-color:
+                                    rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <span class="badge bg-danger px-2 py-1 shadow-1-strong
+                            mb-3">News of the day</span>
+                        <h4><strong>Facilis consequatur eligendi</strong></h4>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Facilis consequatur
+                            eligendi quisquam doloremque vero ex debitis
+                            veritatis placeat unde animi laborum
+                            sapiente illo possimus, commodi dignissimos
+                            obcaecati illum maiores corporis.
+                        </p>
+                        <button type="button" class="btn btn-primary">Read more</button>
+                    </div>
+                </div>
+            </section>
+            <!--Section: News of the day-->
+
+            <!--Section: Content-->
+            <section>
+                <div class="row gx-lg-5">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <!-- News block -->
+                        <div>
+                            <!-- Featured image -->
+                            <div class="bg-image hover-overlay shadow-1-strong
+                                ripple rounded-5 mb-4"
+                                data-mdb-ripple-color="light">
+                                <img
+                                    src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color:
+                                        rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+
+                            <!-- Article data -->
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <a href="" class="text-info">
+                                        <i class="fas fa-plane"></i>
+                                        Travels
+                                    </a>
+                                </div>
+
+                                <div class="col-6 text-end">
+                                    <u> 15.07.2020</u>
+                                </div>
+                            </div>
+
+                            <!-- Article title and description -->
+                            <a href="" class="text-dark">
+                                <h5>This is title of the news</h5>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Odit, iste aliquid. Sed
+                                    id nihil magni, sint vero provident esse
+                                    numquam perferendis ducimus dicta
+                                    adipisci iusto nam temporibus modi animi
+                                    laboriosam?
+                                </p>
+                            </a>
+
+                            <hr />
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Hollywood Sign on The
+                                            Hill" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Palm Springs Road" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Los Angeles
+                                            Skyscrapers" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Skyscrapers" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- News block -->
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <!-- News block -->
+                        <div>
+                            <!-- Featured image -->
+                            <div class="bg-image hover-overlay shadow-1-strong
+                                rounded-5 ripple mb-4"
+                                data-mdb-ripple-color="light">
+                                <img
+                                    src="https://mdbcdn.b-cdn.net/img/new/fluid/city/011.webp"
+                                    class="img-fluid"
+                                    alt="Brooklyn Bridge" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color:
+                                        rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+
+                            <!-- Article data -->
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <a href="" class="text-danger">
+                                        <i class="fas fa-chart-pie"></i>
+                                        Business
+                                    </a>
+                                </div>
+
+                                <div class="col-6 text-end">
+                                    <u> 15.07.2020</u>
+                                </div>
+                            </div>
+
+                            <!-- Article title and description -->
+                            <a href="" class="text-dark">
+                                <h5>This is title of the news</h5>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Odit, iste aliquid. Sed
+                                    id nihil magni, sint vero provident esse
+                                    numquam perferendis ducimus dicta
+                                    adipisci iusto nam temporibus modi animi
+                                    laboriosam?
+                                </p>
+                            </a>
+
+                            <hr />
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/031.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Five Lands National
+                                            Park" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/032.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Paris - Eiffel Tower"
+                                            />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/033.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Louvre" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/034.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Times Square" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- News block -->
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <!-- News block -->
+                        <div>
+                            <!-- Featured image -->
+                            <div class="bg-image hover-overlay shadow-1-strong
+                                rounded-5 ripple mb-4"
+                                data-mdb-ripple-color="light">
+                                <img
+                                    src="https://mdbcdn.b-cdn.net/img/new/fluid/city/018.webp"
+                                    class="img-fluid"
+                                    alt="Golden Gate National Recreation Area"
+                                    />
+                                <a href="#!">
+                                    <div class="mask" style="background-color:
+                                        rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+
+                            <!-- Article data -->
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <a href="" class="text-warning">
+                                        <i class="fas fa-code"></i>
+                                        Technology
+                                    </a>
+                                </div>
+
+                                <div class="col-6 text-end">
+                                    <u> 15.07.2020</u>
+                                </div>
+                            </div>
+
+                            <!-- Article title and description -->
+                            <a href="" class="text-dark">
+                                <h5>This is title of the news</h5>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Odit, iste aliquid. Sed
+                                    id nihil magni, sint vero provident esse
+                                    numquam perferendis ducimus dicta
+                                    adipisci iusto nam temporibus modi animi
+                                    laboriosam?
+                                </p>
+                            </a>
+
+                            <hr />
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/011.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Brooklyn Bridge" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/012.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Hamilton Park" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/013.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Perdana Botanical
+                                            Garden Kuala Lumpur" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- News -->
+                            <a href="" class="text-dark">
+                                <div class="row mb-4 border-bottom pb-2">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/014.webp"
+                                            class="img-fluid shadow-1-strong
+                                            rounded" alt="Perdana Botanical
+                                            Garden" />
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p class="mb-2"><strong>Lorem ipsum
+                                                dolor sit amet</strong></p>
+                                        <p>
+                                            <u> 15.07.2020</u>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- News block -->
+                    </div>
+                </div>
+            </section>
+            <!--Section: Content-->
+
+            <!-- Pagination -->
+            <nav class="my-4" aria-label="...">
+                <ul class="pagination pagination-circle justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#" tabindex="-1"
+                            aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--Main layout-->
+        <!-- MDB -->
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-white text-muted">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center
+                justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>Get connected with us on social networks:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fa-solid fa-location-dot me-3"></i>Vị trí
+                            </h6>
+                            <p>
+                                Here you can use rows and columns to organize
+                                your footer content. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Products
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Angular</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">React</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Vue</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Laravel</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Đường dẫn nhanh
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Pricing</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Settings</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Orders</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0
+                            mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Thông tin liên hệ</h6>
+                            <p><i class="fas fa-home me-3 text-secondary"></i>
+                            Số 32, Dịch Vọng Hậu, Cầu Giấy, HN</p>
+                            <p>
+                                <i class="fas fa-envelope me-3 text-secondary"></i>
+                                itc.fbu@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3 text-secondary"></i>
+                                + 01 234 567 88</p>
+                            <p><i class="fas fa-print me-3 text-secondary"></i>
+                                + 01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0,
+                0.025);">
+                © 2021 Copyright
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    </body>
+</html>
